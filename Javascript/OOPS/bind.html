@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bind
+
+    </title>
+</head>
+<body>
+    <button>Button clicked</button>
+    
+</body>
+<script>
+    class React{
+        constructor(){
+            this.library="react";
+            this.server="https://localhost:3000"
+            document.querySelector("button").addEventListener('click',this.handleClick.bind(this))
+        }//upar, the requirement of bind was ki
+        //jaise hi page load ho waise hi turant react object bi create hoga
+        //how to do that
+
+
+        handleClick(){
+            console.log(`buutton clicked`)
+            console.log(this.server)
+        }
+    }
+    const app=new React()
+</script>
+</html>
+
+<!-- and thats how bind was used in earlier days -->

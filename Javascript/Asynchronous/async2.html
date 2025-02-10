@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async second</title>
+</head>
+<body>
+    <h1>Chai aur Code</h1>
+    <button id="START">START</button>
+    <button id="STOP">STOP</button>
+    
+</body>
+<script>
+    //setInterval(() => {fn
+    //    
+    //}, interval in milliseconds);
+    console.log("1")
+    const sayDate= function(){
+        console.log("hitesh ",Date.now())
+    }
+    
+    document.querySelector('#START').addEventListener('click',function(){
+        const intervalid=setInterval(sayDate,2000)
+    })
+
+    document.querySelector('#STOP').addEventListener('click',function(){
+       
+    //age upar wale ki jrurat padegi
+    clearInterval(intervalid)
+        
+    })
+
+       
+
+</script>
+</html>

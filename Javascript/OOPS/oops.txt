@@ -1,0 +1,15 @@
+//javascriot ke andar classes hoti h nhi!
+according to chtgpt javascriot  contain classes...
+//but in reality no it doesnt contain classes
+"js is a prototype based language 
+it is not object-oriented and neither functional oriented"
+
+
+q)why classes?
+classes are primarily syntactical sugar only.
+  
+
+oops is a programming paradigm
+(how the structre of code looks like)
+//promises,objects,tolowercase is all objects in oops
+
